@@ -13,7 +13,7 @@
 # Change $ZabbixInstallPath to wherever your Zabbix Agent is installed
 
 $ZabbixInstallPath = "$Env:Programfiles\Zabbix Agent"
-$ZabbixConfFile = "$Env:Programdata\zabbix"
+$ZabbixConfFile = "$Env:Programfiles\Zabbix Agent"
 
 # Do not change the following variables unless you know what you are doing
 
